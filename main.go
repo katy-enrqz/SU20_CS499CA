@@ -3,6 +3,25 @@ package main
 import ("fmt"
         
 )
+
+/*
+  Assignment 1
+  Convert CPP file that creates a rectangle with default vaues of 
+  width and height set to 1.0
+
+  The solution creates a rectangle and then uses a function in main 
+  to check the values inputted and see if they meet certain criteria.
+  That criteria being if the height and width are > 0 and <20, and if this condition is not met, then set the values of both height and width to 1.0 
+
+
+
+  @author KathrynEnriquez
+*/
+
+
+
+
+//creates rectangle with a width and height of value float
 type rectangle struct {
   width, height float64
     
@@ -37,9 +56,11 @@ func (r rectangle) perimeter() float64{
 
 
 func main() {
+
   //new instance for rectangle
   a := new (rectangle)
-  a.vals()
+  a.vals() 
+  //checking values if they meet condition requirements in the vals function
   fmt.Println("a: length = ", a.height, " width = ", a.width, " perimeter = ", a.perimeter(), " area = ", a.area())
 
   b := rectangle{width: 4.0, height: 5.0}
