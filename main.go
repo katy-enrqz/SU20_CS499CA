@@ -7,11 +7,15 @@ import ("fmt"
 /*
   Assignment 1
   Convert CPP file that creates a rectangle with default vaues of 
-  width and height set to 1.0
+  width and height set to 1.0, and any other values given will return the perimeter and area.
 
   The solution creates a rectangle and then uses a function in main 
   to check the values inputted and see if they meet certain criteria.
   That criteria being if the height and width are > 0 and <20, and if this condition is not met, then set the values of both height and width to 1.0 
+
+  Then each rectangle will have values and will have a perimeterand area.
+
+  
 
 
 
